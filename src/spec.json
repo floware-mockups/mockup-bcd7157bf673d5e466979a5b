@@ -1,0 +1,347 @@
+{
+  "title": "Gestione delle prenotazioni delle sale",
+  "description": "Prototipo per consultare il calendario settimanale, verificare la disponibilità e registrare prenotazioni di sale riunioni con dati inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "calendario-settimanale",
+      "title": "Calendario settimanale",
+      "description": "Panoramica delle prenotazioni per sala e fascia oraria. I filtri della tabella consentono di restringere i risultati per giorno e sala.",
+      "metrics": [
+        {
+          "label": "Prenotazioni della settimana",
+          "value": "18"
+        },
+        {
+          "label": "Sale disponibili oggi",
+          "value": "3"
+        },
+        {
+          "label": "Ore prenotate",
+          "value": "42"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Sala",
+        "Orario",
+        "Attività",
+        "Organizzazione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì 9",
+          "Lumo",
+          "09:00–10:30",
+          "Pianificazione spazi",
+          "Nubi Civica",
+          "Confermata"
+        ],
+        [
+          "Lunedì 9",
+          "Vela",
+          "11:00–12:00",
+          "Revisione calendario",
+          "Tersa Progetti",
+          "Confermata"
+        ],
+        [
+          "Lunedì 9",
+          "Brina",
+          "14:00–15:00",
+          "Coordinamento interno",
+          "Lumo Servizi",
+          "In attesa"
+        ],
+        [
+          "Martedì 10",
+          "Lumo",
+          "09:30–11:00",
+          "Incontro operativo",
+          "Vela Urbana",
+          "Confermata"
+        ],
+        [
+          "Martedì 10",
+          "Nubi",
+          "13:00–14:30",
+          "Laboratorio idee",
+          "Brina Civica",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 11",
+          "Vela",
+          "09:00–10:00",
+          "Verifica dotazioni",
+          "Nubi Civica",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 11",
+          "Lumo",
+          "10:30–12:00",
+          "Pianificazione spazi",
+          "Tersa Progetti",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 11",
+          "Brina",
+          "15:00–16:00",
+          "Riunione di coordinamento",
+          "Vela Urbana",
+          "Annullata"
+        ],
+        [
+          "Giovedì 12",
+          "Nubi",
+          "09:00–10:30",
+          "Revisione calendario",
+          "Lumo Servizi",
+          "Confermata"
+        ],
+        [
+          "Giovedì 12",
+          "Vela",
+          "11:30–13:00",
+          "Incontro operativo",
+          "Brina Civica",
+          "In attesa"
+        ],
+        [
+          "Giovedì 12",
+          "Lumo",
+          "14:00–15:00",
+          "Laboratorio idee",
+          "Nubi Civica",
+          "Confermata"
+        ],
+        [
+          "Venerdì 13",
+          "Brina",
+          "09:00–10:00",
+          "Verifica dotazioni",
+          "Tersa Progetti",
+          "Confermata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "prenotazioni",
+      "title": "Prenotazioni",
+      "description": "Elenco filtrabile delle prenotazioni e form per registrare un nuovo utilizzo di una sala. Le etichette del form corrispondono alle prime colonne della tabella.",
+      "metrics": [
+        {
+          "label": "Confermate",
+          "value": "14"
+        },
+        {
+          "label": "In attesa",
+          "value": "3"
+        },
+        {
+          "label": "Annullate",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Sala",
+        "Orario",
+        "Attività",
+        "Organizzazione",
+        "Referente",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì 9",
+          "Lumo",
+          "09:00–10:30",
+          "Pianificazione spazi",
+          "Nubi Civica",
+          "Referente A",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Lunedì 9",
+          "Vela",
+          "11:00–12:00",
+          "Revisione calendario",
+          "Tersa Progetti",
+          "Referente B",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Lunedì 9",
+          "Brina",
+          "14:00–15:00",
+          "Coordinamento interno",
+          "Lumo Servizi",
+          "Referente C",
+          "6",
+          "In attesa"
+        ],
+        [
+          "Martedì 10",
+          "Lumo",
+          "09:30–11:00",
+          "Incontro operativo",
+          "Vela Urbana",
+          "Referente D",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Martedì 10",
+          "Nubi",
+          "13:00–14:30",
+          "Laboratorio idee",
+          "Brina Civica",
+          "Referente E",
+          "10",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 11",
+          "Vela",
+          "09:00–10:00",
+          "Verifica dotazioni",
+          "Nubi Civica",
+          "Referente F",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 11",
+          "Lumo",
+          "10:30–12:00",
+          "Pianificazione spazi",
+          "Tersa Progetti",
+          "Referente G",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Mercoledì 11",
+          "Brina",
+          "15:00–16:00",
+          "Riunione di coordinamento",
+          "Vela Urbana",
+          "Referente H",
+          "6",
+          "Annullata"
+        ],
+        [
+          "Giovedì 12",
+          "Nubi",
+          "09:00–10:30",
+          "Revisione calendario",
+          "Lumo Servizi",
+          "Referente I",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Giovedì 12",
+          "Vela",
+          "11:30–13:00",
+          "Incontro operativo",
+          "Brina Civica",
+          "Referente L",
+          "7",
+          "In attesa"
+        ],
+        [
+          "Giovedì 12",
+          "Lumo",
+          "14:00–15:00",
+          "Laboratorio idee",
+          "Nubi Civica",
+          "Referente M",
+          "9",
+          "Confermata"
+        ],
+        [
+          "Venerdì 13",
+          "Brina",
+          "09:00–10:00",
+          "Verifica dotazioni",
+          "Tersa Progetti",
+          "Referente N",
+          "4",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Giorno",
+        "Sala",
+        "Orario",
+        "Attività",
+        "Organizzazione",
+        "Referente",
+        "Partecipanti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sale",
+      "title": "Sale riunioni",
+      "description": "Consulta capienza, dotazioni e stato operativo delle sale disponibili.",
+      "metrics": [
+        {
+          "label": "Sale attive",
+          "value": "4"
+        },
+        {
+          "label": "Posti complessivi",
+          "value": "38"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Capienza",
+        "Dotazioni",
+        "Disponibilità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "12",
+          "Schermo, lavagna",
+          "Lun–Ven, 08:00–18:00",
+          "Attiva"
+        ],
+        [
+          "Vela",
+          "10",
+          "Schermo, videoconferenza",
+          "Lun–Ven, 08:00–18:00",
+          "Attiva"
+        ],
+        [
+          "Nubi",
+          "8",
+          "Lavagna, tavolo modulare",
+          "Lun–Ven, 09:00–17:00",
+          "Attiva"
+        ],
+        [
+          "Brina",
+          "8",
+          "Schermo, lavagna",
+          "Lun–Ven, 08:00–17:00",
+          "Attiva"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
